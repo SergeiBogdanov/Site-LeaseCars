@@ -1,0 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #ccc;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner{
+    padding-top: 40px;
+    display: flex;
+}
